@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: gray;
+   margin-top: 10vh;
+   padding: 1rem;
+    width: 50%;
+    height: 60vh;
+}
+.container table{
+    border-style:solid;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width:98%;
+    padding:1rem;
+}
+.container th{
+    border:1;
+    border-style:solid;
+    width:18%;
+}
+.container td{
+    border:1;
+}
