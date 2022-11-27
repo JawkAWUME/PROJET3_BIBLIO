@@ -1,13 +1,16 @@
 <?php require_once("data.projet3.php");?>
     <div class="container">
         <table>
+        <caption>LISTE DES AUTEURS</caption>
             <tr>
             <th>ID</th>
            <th>Nom</th>
            <th>Prénom</th>
            <th>Profession</th>
             </tr>
-        <?php foreach ($auteurs as $v):?>
+        <?php
+        $auteurs=all_authors();
+        foreach ($auteurs as $v):?>
             <tr>
                 <th><?php echo($v["idA"]);?></th>
                 <th><?php echo($v["nomA"]);?></th>
